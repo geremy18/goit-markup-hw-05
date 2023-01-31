@@ -185,34 +185,8 @@ header {
 }
 
 /* body */
-/* .data-modal{
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.6);
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  
-}
 
-.modal-box{
-  position: absolute;
-  width: 528px;
-  height: 581px;
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.icon-modal{
-  width: 18px;
-  height: 18px;
-} */
-
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -225,17 +199,17 @@ header {
   z-index: 1;
 }
 
-.backdrop.is-hidden{
+.backdrop.is-hidden {
   opacity: 0;
   visibility: visible;
   pointer-events: none;
 }
 
-.backdrop.is-hidden.modal{
+.backdrop.is-hidden.modal {
   transform: translate(-50%, -50%) scale(0.1);
 }
 
-.modal{
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -254,16 +228,16 @@ header {
   padding-top: 8px;
   padding-right: 8px;
 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.button-svg{
+.button-svg {
   width: 11px;
   height: 11px;
 }
 
-.button-close{
+.button-close {
   width: 30px;
   height: 30px;
   justify-content: center;
@@ -982,26 +956,25 @@ hr {
   margin-top: 4px;
 }
 
-.box-conte{
+.box-conte {
   position: relative;
   overflow: hidden;
 }
 
-.box-conte p{
+.box-conte p {
   color: #fff;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   margin: 93px 24px;
-
 }
 
 .textos-conte {
   padding: 20px 24px;
 }
 
-.text-animate{
+.text-animate {
   position: absolute;
   top: 0;
   transform: translateY(100%);
@@ -1013,8 +986,6 @@ hr {
   transition-timing-function: linear;
 }
 
-.conte:hover > .link > .box-conte > .text-animate{
-  transform:translateY(0%);
-  
+.conte:hover > .link > .box-conte > .text-animate {
+  transform: translateY(0%);
 }
-
