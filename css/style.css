@@ -233,8 +233,9 @@ header {
 }
 
 .button-svg {
-  width: 11px;
-  height: 11px;
+  width: 17px;
+  height: 17px;
+  display:flex;
 }
 
 .button-close {
@@ -965,9 +966,9 @@ hr {
   color: #fff;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 1.5;
   letter-spacing: 0.03em;
-  margin: 93px 24px;
+  padding: 64px 24px;
 }
 
 .textos-conte {
